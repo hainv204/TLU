@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+struct sinhvien{
+	string ten;
+	int sbd;
+	float diem;
+};
+void Xuat(vector<sinhvien>sv){
+	cout<<"Hien thi danh sach:\n";
+	for(int i=0;i<sv.size();i++){
+		cout<<sv[i].sbd<<"\t"<<sv[i].ten<<"\t"<<sv[i].diem<<endl;
+	}
+}
+int main(){
+int n;
+vector<sinhvien>sv;
+cout<<"Cho n = ";cin>>n;cin.ignore();
+for(int i=0;i<n;i++){
+	sinhvien svp;
+	cout<<"Nhap SBD: ";cin>>svp.sbd;cin.ignore();
+	cout<<"Nhap ten: ";getline(cin,svp.ten);
+	cout<<"Diem: ";cin>>svp.diem;cin.ignore();
+	sv.push_back(svp);
+}
+Xuat(sv);
+cout<<"Cho SV can them vao cuoi DS:\n";
+sinhvien svx;
+cout<<"SBD: ";cin>>svx.sbd;cin.ignore();
+cout<<"Ten: ";getline(cin,svx.ten);
+cout<<"Diem: ";cin>>svx.diem;cin.ignore();
+sv.push_back(svx);
+Xuat(sv);
+return 0;
+}
+

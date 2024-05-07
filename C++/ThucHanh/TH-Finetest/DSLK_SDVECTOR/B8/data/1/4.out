@@ -1,0 +1,11 @@
+Cho so phan tu n = Nhap Ma SV: Nhap ten SV: Diem: Nhap Ma SV: Nhap ten SV: Diem: Nhap Ma SV: Nhap ten SV: Diem: In danh sach:
+a1	Hoang Minh	3.5
+a2	Minh Dung	2
+a3	Mai Nhung	3.2
+Cho thong tin 1 SV:
+MaSV: Ten: Diem: Hay them x vao vi tri thu 2!
+In danh sach:
+a1	Hoang Minh	3.5
+a4	Hoang Nhung	3
+a2	Minh Dung	2
+a3	Mai Nhung	3.2

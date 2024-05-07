@@ -1,0 +1,10 @@
+Cho n = Nhap SBD: Nhap ten: Nam sinh: Nhap SBD: Nhap ten: Nam sinh: Nhap SBD: Nhap ten: Nam sinh: Hien thi danh sach:
+12	Minh Dung	2002
+13	Mai Nhung	2001
+14	Hoang Bach	2000
+Cho SV can them vao cuoi DS:
+SBD: Ten: Nam sinh: Hien thi danh sach:
+12	Minh Dung	2002
+13	Mai Nhung	2001
+14	Hoang Bach	2000
+15	Tran Mai	2002

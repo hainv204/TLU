@@ -1,0 +1,7 @@
+Cho so phan tu n = Cho so phan tu n = Nhap phan tu thu 1: Nhap phan tu thu 2: Nhap phan tu thu 3: Nhap phan tu thu 4: Nhap phan tu thu 5: Nhap phan tu thu 6: 
+Hien thi danh sach: 1.5 8 7 4.3 5 0
+Cho x = Hay them x vao dau va cuoi danh sach.
+Hien thi danh sach: 4 1.5 8 7 4.3 5 0 4
+Hay xoa o cuoi danh sach:
+Hien thi danh sach: 4 1.5 8 7 4.3 5 0
+Do dai cua DS = 7

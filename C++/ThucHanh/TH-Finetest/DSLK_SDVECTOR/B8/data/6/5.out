@@ -1,0 +1,10 @@
+Cho n = Nhap SBD: Nhap ten: Diem: Nhap SBD: Nhap ten: Diem: Nhap SBD: Nhap ten: Diem: Hien thi danh sach:
+12	Minh Dung	7
+13	Mai Nhung	8
+14	Hoang Bach	8.4
+Cho SV can them vao cuoi DS:
+SBD: Ten: Diem: Hien thi danh sach:
+12	Minh Dung	7
+13	Mai Nhung	8
+14	Hoang Bach	8.4
+15	Tran Mai	9
