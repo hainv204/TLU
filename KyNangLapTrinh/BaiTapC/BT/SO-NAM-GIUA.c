@@ -27,10 +27,19 @@ int main() {
 int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
+    /*TH1.Giả sử a là số nằm giữa
+    - c<a<b
+    - b<a<c
+    */
     if ((a > b && a < c) || (a < b && a > c))
 		printf("%d",a);
+    /*TH2.Giả sử b là số nằm giữa
+    - c<b<a
+    - a<b<c
+    */
     else if ((b > a && b < c) || (b < a && b > c))
 		printf("%d",b);
+    //TH còn lại
 	else
         printf("%d",c);
     return 0;
