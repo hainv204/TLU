@@ -25,22 +25,27 @@ int main() {
 //Rút gọn
 #include<stdio.h>
 int main() {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    float a,b,c,x;
+	printf("A = ");
+	scanf("%f",&a);
+	printf("B = ");
+	scanf("%f",&b);
+	printf("C = ");
+	scanf("%f",&c);
     /*TH1.Giả sử a là số nằm giữa
     - c<a<b
     - b<a<c
     */
-    if ((a > b && a < c) || (a < b && a > c))
-		printf("%d",a);
+    if ((a >= b && a <= c) || (a <= b && a >= c))
+		printf("%g",a);
     /*TH2.Giả sử b là số nằm giữa
     - c<b<a
     - a<b<c
     */
-    else if ((b > a && b < c) || (b < a && b > c))
-		printf("%d",b);
+    else if ((b >= a && b <= c) || (b <= a && b >= c))
+		printf("%g",b);
     //TH còn lại
 	else
-        printf("%d",c);
+        printf("%g",c);
     return 0;
 }
